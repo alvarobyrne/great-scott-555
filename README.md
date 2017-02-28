@@ -7,3 +7,8 @@ npm install
 ```
 bower install
 ```
+Needs local server
+In order tu livereload:
+```
+grunt watch
+```
