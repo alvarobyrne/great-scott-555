@@ -8,6 +8,7 @@ npm install
 bower install
 ```
 Needs local server
+
 In order to livereload:
 ```
 grunt watch
