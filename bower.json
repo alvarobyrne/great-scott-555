@@ -1,0 +1,25 @@
+{
+  "name": "great_scott_555",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Alvaro Obyrne <alvarobyrne@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "dat.gui": "dat-gui#^0.6.2",
+    "gsap": "greensock#^1.19.1",
+    "chroma-js": "^1.1.1",
+    "svg-pan-zoom": "^3.4.1"
+  }
+}
