@@ -26,7 +26,7 @@ var paper_svg = document.querySelector('svg');
 paper_svg.style.position = 'absolute';
 paper_svg.style.top      = '0px';
 paper_svg.style.left     = '0px';
-Snap.load("great scott 555.svg",init)
+Snap.load("data/svg/great scott 555.svg",init)
 var vectors_layer;
 var group_lines;
 function init(argument) {
