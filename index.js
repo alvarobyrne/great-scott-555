@@ -222,7 +222,7 @@ function init(argument) {
 	// console.log("frame : ",frame);
 	resistances = get_elements_from_ids(resistances_ids);
 	opAmps = get_elements_from_ids(opAmps_ids);
-	do_hide_all();
+	// do_hide_all();
 	r1_r2 = get_bus('r1-r2');
 	var gnd_bus = get_bus('gnd');
 	var vcc_bus = get_bus('vcc');
@@ -761,12 +761,6 @@ function set_dat(argument) {
 	///////////////////////////////////
 	///////////////////////////////////
 	///////////////////////////////////
-	var folder_scenes2 = gui.addFolder('Scenes; busese');
-	_.each(scenes_buses,function (e,i,a) {
-		folder_scenes2.add({f: ()=> {
-			do_animation_scene(scenes_buses,group_lines,i)
-		}},'f').name(i);
-	})
 	gui.add({f:function () {
 		var z = pan_zoom_main.getZoom();
 		console.log("z : ",z);
